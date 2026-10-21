@@ -20,7 +20,7 @@ brew install --cask PentagonToy/tap/remile
 
 Requires Apple Silicon and macOS 14 or later. The cask also installs the bundled `remile` CLI. LaTeX requires a separate TeX installation. Optional Apple Intelligence needs macOS 26 or later on an eligible Mac.
 
-remile. 0.1.1 is ad hoc signed and is not notarised by Apple. Read its [installation requirements](https://github.com/PentagonToy/remile#install) before the first launch. This cask does not remove quarantine or change security settings. Its version and checksum refer to the [0.1.1 release](https://github.com/PentagonToy/remile/releases/tag/v0.1.1).
+remile. 0.1.2 is ad hoc signed and is not notarised by Apple. Read its [installation requirements](https://github.com/PentagonToy/remile#install) before the first launch. This cask does not remove quarantine or change security settings. Its version and checksum refer to the [0.1.2 release](https://github.com/PentagonToy/remile/releases/tag/v0.1.2).
 
 ```sh
 brew upgrade --cask remile
