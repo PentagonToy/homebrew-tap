@@ -8,7 +8,7 @@ brew install --cask pentagontoy/tap/baker
 
 Requires Homebrew, Apple Silicon and macOS 26.0 or later. Optional PDF conversion requires macOS 26.2 or later and a one-time engine download. The cask uses the same DMG and SHA-256 as the [Baker release](https://github.com/PentagonToy/Baker/releases/latest).
 
-Baker is ad-hoc signed and not notarised. Follow the [first-launch guidance](https://pentagontoy.github.io/Baker/help/troubleshooting.html) if macOS blocks opening it. This tap does not remove quarantine or change privacy permissions.
+Baker is self-signed and not notarised. Follow the [first-launch guidance](https://pentagontoy.github.io/Baker/help/troubleshooting.html) if macOS blocks opening it. This tap does not remove quarantine or change privacy permissions.
 
 ## remile.
 
