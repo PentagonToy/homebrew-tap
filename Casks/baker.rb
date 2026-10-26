@@ -1,6 +1,6 @@
 cask "baker" do
-  version "0.0.5"
-  sha256 "41a6d98cde87df6826dd314f4d5f0a3afb2ae3f2ab19ac2040a8884adf75608b"
+  version "0.0.6"
+  sha256 "d67ebf13a45bb8d4328a00807027995d89ecb0191371d3e927880b049d5ab6ff"
 
   url "https://github.com/PentagonToy/Baker/releases/download/v#{version}/Baker-#{version}-arm64.dmg"
   name "Baker"
@@ -13,7 +13,7 @@ cask "baker" do
   app "Baker.app"
 
   caveats <<~EOS
-    Baker is self-signed and is not notarised.
+    Baker is ad-hoc signed and is not notarised.
     Review macOS first-launch guidance before opening it:
       https://pentagontoy.github.io/Baker/help/troubleshooting.html
     Optional PDF conversion requires macOS 26.2 or later.
