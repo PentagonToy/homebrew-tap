@@ -1,6 +1,6 @@
 cask "remile" do
-  version "0.1.3"
-  sha256 "7b6661700782b37dec61492635d806aee56f68d94f2f2fff58278eefa358d4d9"
+  version "0.2.0"
+  sha256 "670551db5d1cce53dad091922e23e7cbac5f4f46fac148646eae56671cb61aaf"
   url "https://github.com/PentagonToy/remile/releases/download/v#{version}/remile-#{version}-arm64.dmg"
   name "remile."
   desc "Local document workspace for reading, writing and library search"
@@ -11,9 +11,6 @@ cask "remile" do
   binary "#{appdir}/remile.app/Contents/Resources/CLI/remile"
 
   caveats <<~EOS
-    remile. 0.1.3 is ad hoc signed and is not notarised by Apple.
-    Review the installation notes before the first launch:
-      https://github.com/PentagonToy/remile#install
     LaTeX compilation requires separately installed TeX tools.
     Documents and preferences remain after uninstalling remile.
   EOS
