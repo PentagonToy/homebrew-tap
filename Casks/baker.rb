@@ -1,6 +1,6 @@
 cask "baker" do
-  version "0.0.9"
-  sha256 "8e55c43d77df064a3c366ae943f67dee2e40ea754d3ed9076b7dbf45a060106c"
+  version "0.1.0"
+  sha256 "d6b3d5588c8527322c3a6e37d25562aaff5c3a8033f67d410d1f34baada359be"
 
   url "https://github.com/PentagonToy/Baker/releases/download/v#{version}/Baker-#{version}-arm64.dmg"
   name "Baker"
@@ -13,9 +13,6 @@ cask "baker" do
   app "Baker.app"
 
   caveats <<~EOS
-    Baker is locally signed and is not notarised.
-    Review macOS first-launch guidance before opening it:
-      https://pentagontoy.github.io/Baker/help/troubleshooting/
     Optional PDF conversion requires macOS 26.2 or later.
     Captures and preferences remain after uninstalling Baker.
   EOS
