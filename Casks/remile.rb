@@ -1,6 +1,6 @@
 cask "remile" do
-  version "0.2.0"
-  sha256 "670551db5d1cce53dad091922e23e7cbac5f4f46fac148646eae56671cb61aaf"
+  version "0.2.1"
+  sha256 "de4bef8c5c9bf549268fa487ef691d08d00fefd4a947d04d72b9465e707513a2"
   url "https://github.com/PentagonToy/remile/releases/download/v#{version}/remile-#{version}-arm64.dmg"
   name "remile."
   desc "Local document workspace for reading, writing and library search"
