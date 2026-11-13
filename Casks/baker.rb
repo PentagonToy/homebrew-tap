@@ -1,6 +1,6 @@
 cask "baker" do
-  version "0.1.2"
-  sha256 "18db67d5941021bff98326a4a7cdb52555b941b3fe487ecb81a75411a078526b"
+  version "0.1.3"
+  sha256 "9a7a0e0848f2c6ae19ba39cef00dd705ca3f49dc43e4e9fd50fc42be7007371e"
 
   url "https://github.com/PentagonToy/Baker/releases/download/v#{version}/Baker-#{version}-arm64.dmg"
   name "Baker"
