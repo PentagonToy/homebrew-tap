@@ -39,4 +39,15 @@ brew uninstall --cask baker
 
 Removal keeps captures, models and preferences. Quit Baker before replacing or removing its app. If the same release is already in Applications, `brew install --cask --adopt pentagontoy/tap/baker` lets Homebrew adopt an identical copy; a different copy must be moved aside first.
 
-This is a third-party tap maintained by the apps’ developer, separate from the official Homebrew cask collection. Copyright © 2026 PentagonToy. The tap source is AGPL-3.0-only. Baker, remile. and bundled components retain their documented licences.
+## OpenFOAM 14
+
+Run [OpenFOAM Foundation 14](https://github.com/PentagonToy/OpenFOAM-MacOS) natively on Apple Silicon.
+
+```sh
+brew install --cask pentagontoy/tap/openfoam-14
+openfoam-14
+```
+
+Opening **OpenFOAM-14** from Applications starts the same Terminal environment. Both entry points mount the read-only `OpenFOAM-14` volume automatically. Open MPI is bundled for parallel runs.
+
+This is a third-party tap maintained by the apps’ developer, separate from the official Homebrew cask collection. Copyright © 2026 PentagonToy. The tap source is AGPL-3.0-only. Apps and bundled components retain their documented licences.
