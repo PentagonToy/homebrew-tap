@@ -1,6 +1,6 @@
 cask "openfoam-14" do
   version "0.1.0"
-  sha256 "123fe42434a693b7f108ed0ec7756802bbdb60229eab402d2c0ef3680809a4cf"
+  sha256 "d48d9e4e692595139fff6da51df3d18285822c8058441fa1d982b0da94665a75"
 
   url "https://github.com/PentagonToy/OpenFOAM-MacOS/releases/download/v#{version}/openfoam-14-#{version}-arm64.dmg"
   name "OpenFOAM 14"
